@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import defaultDataset from "./dataset"
 
 export default class App extends React.Component {
   constructor(props) {
@@ -9,7 +10,7 @@ export default class App extends React.Component {
       answers: [],
       chats: [],
       currentId: "init",
-      dataset: {},
+      dataset: defaultDataset,
       open: false
     }
   }
